@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@500&display=swap');
+
+body, html {
+    font-family: "Roboto";
+    padding-top: 50px; 
+}
+
+.nav {
+    background-color: rgb(241, 237, 237) !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#carouselExampleFade, .carousel-item {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(207, 202, 202);
+    border-radius: 2px;
+  }
+
+  .nav-item {
+    font-weight: 500;
+  }
+
+  .green-btn {
+    background-color: #128079 !important;
+    color: whitesmoke !important;
+    border-radius: 8px;
+    border: none;
+    transition-duration: 0.4s;
+  }
+
+  .green-btn:hover{
+    background-color: rgb(23, 11, 77) !important;
+  }
+
+  .main-text{
+    text-align: center;
+  }
+
+  .main-text:hover {
+    text-decoration: underline 5px #128079;
+  }
+
+  .link-design:hover {
+    text-decoration: underline 2px gray;
+    cursor: pointer;
+  }
+
+  .bg-color{
+    background-color: rgb(241, 237, 237) !important;
+  }
+
+  .main-art {
+    border: none !important;
+  }
