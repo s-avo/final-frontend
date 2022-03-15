@@ -1,6 +1,6 @@
 function Founder({founder}) {
 
-    let contentRow = founder.map((found, index) => {
+    let content = founder.map((found, index) => {
     
         return (
             <tr key={index}>
@@ -21,7 +21,7 @@ function Founder({founder}) {
                 </tr>
             </thead>
             <tbody>
-                {contentRow}
+                {content}
             </tbody>
         </table>
     )

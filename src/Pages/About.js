@@ -13,7 +13,6 @@ function About() {
         {image: image1,  name: "Sally May Johnes-Parson"},
     ]
 
-
     let tabContent = '';
     if (activeTab === 'founder') {
         tabContent = <Founder  founder={founder}/>
@@ -26,8 +25,7 @@ function About() {
     } else if (activeTab === 'whyjoin') {
         tabContent = <WhyJoin />
     }
-
-    
+ 
     return (
         <div className="container mb-5">
             <div className="row">
@@ -65,7 +63,6 @@ function About() {
                 <div className="col-6">
                     <Map />
         </div>
-
             <div className="col-6">
                 <h5>Address</h5>
                 <p>All Over The World</p>

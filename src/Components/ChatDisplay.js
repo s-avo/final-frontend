@@ -3,7 +3,6 @@ import { getMessages } from "../API/messages"
 import CreateNewMessage from "./CreateNewMessage"
 import MessageList from "./MessageList"
  
-
 function ChatDisplay() {
 
     const [messages, setMessages] = useState([])
